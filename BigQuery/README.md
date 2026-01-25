@@ -31,14 +31,13 @@ To extract meaningful business insights, I utilized the following advanced BigQu
 * Structured multi-step transformations where raw data is first cleaned, then aggregated, and finally filtered in a single execution block.
 
 ### 4. Strategic Business Queries
-* **Cohort Analysis:** Grouping users by their signup month to track retention.
+* **Cohort Analysis:** Grouping users by their sign up month to track retention.
 * **Product Performance:** Identifying high-value categories vs. high-volume categories.
 
 
 ## 📂 Repository Contents
 ```text
 ├── SQL_Scripts/
-│   ├── DDL_Table_Setup.sql     # Script to create the 3-table schema
-│   ├── Sales_Analysis_v1.sql   # General analysis and joins
-│   └── Advanced_Analytics.sql  # Window functions and CTE implementation
+│   ├── Sales_Schema_Query.sql             # Script to create the 3-table schema
+│   ├── Uploaded_Sales_Dataset_Query.sql   # General analysis and joins
 └── README.md
